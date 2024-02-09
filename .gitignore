@@ -1,0 +1,64 @@
+*/config.tsx
+frontend/config.tsx
+*.pyc
+/backend/db.sqlite3
+.DS_Store
+.env
+venv/
+*/settings/local.py
+/staticfiles/*
+/mediafiles/*
+backend/config/media
+__pycache__/
+/.vscode/
+media
+db.sqlite3
+# coverage result
+.coverage
+/coverage/
+
+# pycharm
+.idea/
+
+# data
+*.dump
+
+# npm
+node_modules/
+npm-debug.log
+
+# Webpack
+/frontend/bundles/*
+/frontend/webpack_bundles/*
+/webpack-stats.json
+
+# Sass
+.sass-cache
+*.map
+
+.next
+env
+.env.local
+
+# General
+/{{project_name}}-venv/
+/venv/
+/env/
+/output/
+/cache/
+boilerplate.zip
+
+# Spritesmith
+spritesmith-generated/
+spritesmith.scss
+
+# templated email
+tmp_email/
+
+.direnv
+.envrc
+.tool-versions
+
+# config file
+backend/config/config/config.py
+backend/config/application/naman.py
