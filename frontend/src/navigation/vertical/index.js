@@ -57,6 +57,11 @@ const navigation = () => {
       path: '/map-view'
     },
     {
+      title: 'Forum',
+      icon: FormatLetterCase,
+      path: '/forum'
+    },
+    {
       title: 'Typography',
       icon: FormatLetterCase,
       path: '/typography'

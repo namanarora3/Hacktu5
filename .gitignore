@@ -37,6 +37,10 @@ npm-debug.log
 .sass-cache
 *.map
 
+.next
+env
+.env.local
+
 # General
 /{{project_name}}-venv/
 /venv/
