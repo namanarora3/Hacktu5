@@ -54,7 +54,7 @@ const CardMembership = ({ issues = [] }) => {
                     </Box>
                     <Box sx={{ display: 'flex', alignItems: 'center' }}>
                       <TrendingUp sx={{ color: 'primary.main', marginRight: 2.75 }} fontSize='small' />
-                      <Typography variant='body2'>SHARE: {issue.shareCount}</Typography>
+                      <Typography variant='body2'>Category: {issue.category}</Typography>
                     </Box>
                   </Grid>
                 </Grid>
