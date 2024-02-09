@@ -4,7 +4,7 @@ FRONTEND:
 cd frontend/
 npm install
 npm run dev
-
+```
 Backend:
 ```bash
 cd backend/
@@ -14,5 +14,6 @@ pip install -r requirements.txt
 cd hack24
 python manage.py migrate
 python manage.py runserver 8001
+```
 
 
